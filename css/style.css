@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+	background-color: #00fabb;
+}
+
+header {
+    background-color: #00e7b5;
+}
+
+nav {
+    background-color: #444;
+	display: inline-block;
+    width: 100%;
+}
+
+nav img {
+    width: 10%;
+}
+
+main {
+    background-color: #00ed74;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #00fabb;
+}
+
+li {
+    display: inline-block;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: black;
+	font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+	text-align: center;
+	color: black;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+	text-align: center;
+	background-color: #00ed74;
+}
+
+ol {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+	
+}
+
+footer p {
+    text-align: center;
+}
+
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 40%); 
+    gap: 20px; 
+}
+
+.grid img {
+    width: 100%; 
+}
+
+.grid {
+    justify-content: center; 
+    align-items: center; 
+    row-gap: 20px; 
+}
+
+.flex {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.flex img {
+    width: 100%; 
+}
