@@ -6,6 +6,19 @@ body {
 
 header {
     background-color: #00e7b5;
+	/* display: flex; */
+    /*align-items: center;*/
+}
+
+header p {
+	position: relative;
+	bottom: -50px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
 
 nav {
@@ -37,6 +50,8 @@ h1 {
     font-family: 'Georgia', serif;
     color: black;
 	font-size: 50px;
+	margin: 0;
+	padding: 0;
 }
 
 h2 {
